@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://fhasaj.co.uk
+
+# Sitemaps
+Sitemap: https://fhasaj.co.uk/sitemap.xml

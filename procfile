@@ -1,0 +1,1 @@
+web: npm run post-install && npm run start
