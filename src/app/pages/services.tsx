@@ -11,7 +11,7 @@ export default function Services() {
     return(
 
       <section 
-      id="projects"
+      id="services"
       className="relative h-full p-5 lg:p-0 bg-backgroundColour">
           <div className="relative flex flex-col text-center lg:items-end lg:justify-end lg:text-end text-white">
           <h1 className="text-4xl lg:mt-20 sm:text-center sm:justify-center lg:text-start lg:mr-80 underline underline-offset-8 decoration-4 decoration-accentColour font-FireSans-ExtraBold">

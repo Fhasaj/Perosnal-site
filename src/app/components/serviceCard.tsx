@@ -15,7 +15,7 @@ interface ServiceCardProps {
 
 export default function ServiceCard(props: ServiceCardProps) {
     return(
-        <div className="w-[40vh] h-[70vh]">
+        <div className="w-[40vh] h-[70vh] ">
             <div className="bg-SecondaryColour w-full h-full rounded-lg flex flex-col">
                 <div className="flex-shrink-0">
                     <Image
@@ -27,7 +27,7 @@ export default function ServiceCard(props: ServiceCardProps) {
                         className="w-full h-auto rounded-t-lg"
                     />
                 </div>
-                <div className="flex-grow flex flex-col justify-center items-center p-4 ">
+                <div className="flex-grow flex flex-col justify-center items-center pl-2 pr-2">
                     <h1 className="text-3xl underline underline-offset-4 decoration-4 decoration-accentColour font-FireSans-ExtraBold">
                         {props.title}
                     </h1>
@@ -38,7 +38,7 @@ export default function ServiceCard(props: ServiceCardProps) {
                         {props.tags}
                     </p>
                 </div>
-                <div className="flex-shrink-0 p-4">
+                <div className="flex-shrink-0 p-4 ">
                     <Button 
                         text={props.buttonText}
                         link={props.link}

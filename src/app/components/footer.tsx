@@ -38,7 +38,7 @@ export default function Footer() {
               <FaUpwork />
             </a>
             <a
-              href="https://x.com/techlum008"
+              href="https://x.com/FByets"
               target="_blank"
               className="text-textColour hover:text-accentColour text-4xl mr-6"
               rel="noreferrer"
@@ -46,7 +46,7 @@ export default function Footer() {
               <FaXTwitter />
             </a>
             <a
-              href="https://www.youtube.com/@techlum"
+              href="https://www.youtube.com/@FHByets"
               target="_blank"
               className="text-textColour hover:text-accentColour text-4xl mr-6"
               rel="noreferrer"

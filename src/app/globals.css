@@ -82,6 +82,9 @@
   src: url("/fonts/FiraSans-BlackItalic.ttf") format('truetype');
 }
 
+:root:has(.no-doc-scroll) {
+  overflow:hidden;
+}
 
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'FiraSans-Regular', sans-serif;
