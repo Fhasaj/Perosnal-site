@@ -15,8 +15,8 @@ export default function Projects() {
             : ProjectsData;
         return (
             filteredProjects.map((project: any, index: number) => (
-                <div key={index} className="flex-2">
-                    <div className="mb-2 transition duration-300 ease-in-out">
+                <div key={index} className="flex-2 ">
+                    <div className="mb-2 w-[50vh] transition duration-300 ease-in-out">
                         <ServiceCard 
                             image={project.image}
                             title={project.title}
@@ -45,7 +45,7 @@ export default function Projects() {
                 </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row w-full items-center justify-center whitespace-normal p-5">
+            <div className="flex flex-col sm:flex-row w-full items-center justify-center whitespace-normal">
                 <div className="w-full sm:w-fit mt-2 sm:mt-0">
                     <Buttons
                         text="All"
@@ -73,7 +73,7 @@ export default function Projects() {
             </div>
 
             <div className="flex items-center justify-center">
-                <section className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 justify-center items-center text-center">
+                <section className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 justify-center items-center text-center p-20">
                     {filterProjects()}
                 </section>
             </div>

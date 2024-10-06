@@ -7,15 +7,16 @@ interface ServiceCardProps {
     title: string;
     buttonText: string;
     description: string;
-    tags?: string;
+    tags?: string | string[];
     link?: string;
     onClick?: () => void;
     target?: string;
+    extra?: string;
 }
 
 export default function ServiceCard(props: ServiceCardProps) {
     return(
-        <div className="w-[40vh] h-[70vh] ">
+        <div className={` ${props.extra} w-full h-full`}>
             <div className="bg-SecondaryColour w-full h-full rounded-lg flex flex-col">
                 <div className="flex-shrink-0">
                     <Image

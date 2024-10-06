@@ -111,7 +111,7 @@ export default function Contact() {
               <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full  px-3 mb-6 md:mb-0">
                   <input
-                    className="w-full bg-SecondaryColour text-white rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border focus:border-accentColour focus:bg-white focus:text-black placeholder:text-textColour"
+                    className="w-full bg-SecondaryColour text-white rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border focus:border-accentColour focus:bg-SecondaryColour focus:text-textColour placeholder:text-textColour"
                     id="name"
                     type="text"
                     placeholder="Full Name"
@@ -119,7 +119,7 @@ export default function Contact() {
                 </div>
                 <div className="w-full  px-3 mb-6 md:mb-0">
                   <input
-                    className="w-full bg-SecondaryColour text-white rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border focus:border-accentColour focus:bg-white focus:text-black placeholder:text-textColour"
+                    className="w-full bg-SecondaryColour text-white rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border focus:border-accentColour focus:bg-SecondaryColour focus:text-textColour placeholder:text-textColour"
                     id="email"
                     type="email"
                     placeholder="Email Address"
@@ -127,7 +127,7 @@ export default function Contact() {
                 </div>
                 <div className="w-full  px-3 mb-6 md:mb-0">
                   <select
-                    className="w-full bg-SecondaryColour text-textColour rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border focus:border-accentColour focus:bg-white focus:text-black"
+                    className="w-full bg-SecondaryColour text-white rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border focus:border-accentColour focus:bg-SecondaryColour focus:text-textColour placeholder:text-textColour"
                     id="subject"
                   >
                     <option disabled defaultValue="">Select a subject</option>
@@ -138,7 +138,7 @@ export default function Contact() {
                 </div>
                 <div className="w-full  px-3 mb-6 md:mb-0">
                   <textarea
-                    className="w-full min-h-24 bg-SecondaryColour text-white rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border focus:border-accentColour focus:bg-white focus:text-black placeholder:text-textColour"
+                    className="w-full bg-SecondaryColour text-white rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border focus:border-accentColour focus:bg-SecondaryColour focus:text-textColour placeholder:text-textColour"
                     id="message"
                     placeholder="Your Message"
                   />
@@ -148,6 +148,7 @@ export default function Contact() {
                   text="Send" 
                   type="submit"
                   id="submit"
+                  extra="bg-SecondaryColour hover:bg-accentColourGR"
                   />
                 </div>
               </div>

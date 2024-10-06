@@ -23,7 +23,7 @@ export default function Services() {
           </div>
 
           <div className="flex items-center justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 justify-center items-center text-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 justify-center items-center text-center w-[100vh]">
               <div className="col-span-1">
                 <ServiceCard 
                   image={WordpressIMG}

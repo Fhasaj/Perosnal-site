@@ -1,3 +1,5 @@
+'use client';
+'use strict';
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
 import Image from "next/image";
@@ -35,6 +37,9 @@ export default function Navigation() {
                     </li>
                     <li className="mr-5">
                         <a href="#projects" className="text-textColour hover:text-accentColour transition duration-300 ease-in-out">Projects</a>
+                    </li>
+                    <li className="mr-5">
+                        <a href="/blog" className="text-textColour hover:text-accentColour transition duration-300 ease-in-out">Blog</a>
                     </li>
                     <li className="mr-5">
                         <a href="#contact-me" 
@@ -81,6 +86,11 @@ export default function Navigation() {
                             <li className="mt-10">
                                 <a href="#projects" className="text-textColour hover:text-accentColour transition duration-300 ease-in-out" onClick={toggleMenu}>
                                     Projects
+                                </a>
+                            </li>
+                            <li className="mt-10">
+                                <a href="/blog" className="text-textColour hover:text-accentColour transition duration-300 ease-in-out" onClick={toggleMenu}>
+                                    Blog
                                 </a>
                             </li>
                             <li className="mt-10">
